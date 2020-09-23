@@ -1,0 +1,114 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.group-user{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgba(0, 0, 0, .8);
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.group-user h3{
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.group-user .inputBox-user{
+    position: relative;
+}
+
+.group-user .inputBox-user input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.group-user .inputBox-user label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.group-user .inputBox-user input:focus~ label,
+.group-user .inputBox-user input:valid~ label{
+    top: -18px;
+    left: 0;
+    color: #d8d8d8;
+    font-size: 12px;
+}
+
+.group-user  input[type="submit"]{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.group-user button{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: -55px;
+    margin-left: 100px;
+}
+
+.group-user .signup-button input[type="submit"]:hover{
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.group-user .input-img img{
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: rgba(238, 238, 238, 0.8);
+}
+
+.group-user button:hover{
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: -55px;
+    margin-left: 100px;
+}

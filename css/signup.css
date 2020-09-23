@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+}
+
+.box-form{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    width: 43%;
+    margin-left: 26%;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #00000080;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+}
+
+.box-form h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box-form .input-sign{
+    display: flex;
+}
+
+.box-form .input-sign .input-namna #namna{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.box-form .input-sign .input-namna #namna:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-name input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.box-form .input-sign .input-name input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-lastname input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.box-form .input-sign .input-lastname input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-date input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.box-form .input-sign .input-date input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-section input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 70px;
+}
+
+.box-form .input-sign .input-section input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-year input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 70px;
+}
+
+.box-form .input-sign .input-year input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-image input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 260px;
+}
+
+.box-form .input-sign .input-image input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-phone input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 120px;
+}
+
+.box-form .input-sign .input-phone input:focus{
+    outline: none;
+}
+
+.box-form .input-sign .input-skill input{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 250px;
+}
+
+.box-form .input-sign .input-skill input:focus{
+    outline: none;
+}
+
+.box-form .input-sign p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.box-form .input-sign .input-skill{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-phone{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-image{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-section{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-year{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-date{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-name{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-lastname{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign .input-namna #namna{
+    margin-top: 9.5px;
+}
+
+.box-form .input-sign-button{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.box-form .input-sign-button input{
+    background: #dddddd;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.box-form .input-sign-button input:hover{
+    background: #22252c;
+    color: #ffffff;
+    box-shadow: 0 0 10px #373c47,0 0 40px #373c47,0 0 80px #373c47;
+}
+
+.box-form  button{
+    background: #dddddd;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-left: 35%;
+    margin-top: -8.4%;
+}
+
+.box-form  button:hover{
+    background: #991c1c;
+    color: #ffffff;
+    box-shadow: 0 0 10px #991c1c,0 0 40px #991c1c,0 0 80px #991c1c;
+}
